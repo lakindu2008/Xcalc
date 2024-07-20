@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <!--Developer-R.Lakindu Rashmika Perera-->
+</head>
+<body id="body">
+
+      <div class="menu-list" id="Menu"><br>   
+      <div id="Exit">
+            <svg class="svg7" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/></svg>
+      </div>
+            <button class="btn2"  style="background-color: rgba(49, 51, 53, 0.781);color: white;box-shadow: 0px 0px 30px 0px rgb(184, 177, 177);width: 70%;">Turn On Dark Them</button>
+            <button class="btn2" style="background-color: rgba(54, 56, 58, 0.753); color: white;">Updates</button><br>
+            <a href="./about/about.html">
+            <button class="btn2" style="background-color: rgba(21, 175, 103, 0.664);">About</button>
+            </a>
+            <p>
+                  To learn how you can contribute to XCalculator,
+                  check out the project on GitHub.
+            </p>
+      </div>
+      <div class="menu">   
+            <div class="svg">
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M180-120q-25 0-42.5-17.5T120-180v-76l160-142v278H180Zm140 0v-160h320v160H320Zm360 0v-328L509-600l121-107 190 169q10 9 15 20.5t5 24.5v313q0 25-17.5 42.5T780-120H680ZM120-310v-183q0-13 5-25t15-20l300-266q8-8 18.5-11.5T480-819q11 0 21.5 3.5T520-804l80 71-480 423Z"/></svg>
+            <h2 class="text4">Xcal</h2>
+            <svg class="svg2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg>
+            <div id="MenuOpen">
+                  <svg class="svg3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </div>
+            
+            </div>
+      </div>
+
+      <div class="display" style="text-align: center;">
+            <input type="text" id="Display" placeholder=" 0">
+      </div><br>
+      <div class="allbtn" id="Them3"><br>
+            <div class="buttons">
+                  <button class="btn1" onclick="Display.value =''" id="DarkThem">⚡</button>
+                  <button class="btn1" onclick="Display.value =''">C</button>
+                  <button class="btn1" onclick="Display.value +=''">AC</button>
+                  <button class="btn1" onclick="Display.value = Display.value.slice(0, -1)" id="sp">DE</button>
+            </div>
+      <div class="buttons">
+            <button class="btn1" onclick="Display.value +='1'">1</button>
+            <button class="btn1" onclick="Display.value +='2'">2</button>
+            <button class="btn1" onclick="Display.value +='3'">3</button>
+            <button class="btn1" onclick="Display.value +='+'" id="sp">+</button>
+      </div>
+      <div class="buttons">
+            <button class="btn1" onclick="Display.value +='4'">4</button>
+            <button class="btn1" onclick="Display.value +='5'">5</button>
+            <button class="btn1" onclick="Display.value +='6'">6</button>
+            <button class="btn1" onclick="Display.value +='-'" id="sp">-</button>
+      </div>
+      <div class="buttons">
+            <button class="btn1" onclick="Display.value +='7'">7</button>
+            <button class="btn1" onclick="Display.value +='8'">8</button>
+            <button class="btn1" onclick="Display.value +='9'">9</button>
+            <button class="btn1" onclick="Display.value +='/'" id="sp">÷</button>
+      </div>
+      <div class="buttons">
+            <button class="btn1" onclick="Display.value +='0'">0</button>
+            <button class="btn1" onclick="Display.value +='.'" id="sp">.</button>
+            <button class="btn1" onclick="Display.value +='*'"id="sp">x</button>
+            <button style="border-radius: 30px; background-color: rgb(85, 84, 82);color: white ; font-size: 20px;" class="btn1" onclick="Display.value = eval(Display.value);" id="sp">=</button>
+      </div><br><br>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

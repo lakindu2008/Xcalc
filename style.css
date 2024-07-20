@@ -1,0 +1,115 @@
+body{
+      background-color:rgb(255, 255, 255);
+      font-family: "poppins",sans-serif;
+}
+#Display{
+      width: 95%;
+      height: 150px;
+      border-radius: 20px;
+      color: rgba(0, 0, 0, 0.651);
+      font-size: 60px;
+      margin: auto;
+      margin-top: 10%;
+      border: none;
+      background-color: rgba(228, 227, 227, 0.795);
+}
+.buttons{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 3%;
+      margin-top: 5%;
+
+}
+.btn1{
+      width: 20%;
+      border-radius: 660px;
+      border: none;
+      font-family: "poppins",sans-serif;
+      font-size: 16px;
+      background-color: rgba(88, 88, 88, 0.062);
+      font-weight: 550;
+      color: rgb(73, 72, 69);
+      height: 65px;
+}
+.allbtn{
+      margin-top: 15%;
+      background-color:rgb(255, 255, 255);
+      border-radius: 20px;
+      width: 95%;
+      margin: auto;
+      box-shadow: 0px 0px 10px 0px rgb(172, 172, 172);
+}
+.svg1{
+      padding-left: 5%;
+      padding-top: 5%;
+}
+.svg2{
+      margin-left: 50%;
+      padding-top: 5%;
+}
+.svg3{
+      margin-left: 60%;
+      padding-top: 70%;
+}
+.svg7{
+      margin-left: 85%;
+      position: absolute;
+      top: 13%;
+}
+#sp{
+      background-color: rgba(0, 173, 101, 0.288)
+}
+.text4{
+      font-size: 13px;
+      left: 17%;
+      top: 3%;
+      font-family: "poppins",sans-serif;
+      margin-left: 5%;
+      padding-top:4% ;
+}
+.menu-list{
+      display: none;
+      position: absolute;
+      font-size: 50%;
+      background-color: rgb(211, 212, 212);
+      width: 95%;
+      height: 280px;
+      color: rgba(0, 0, 0, 0.726);
+      border-radius: 20px;
+      top: 2%;
+}
+.them1{
+      background-color: aliceblue;
+      width: 15%;
+      height: 50px;
+      border-radius: 40px;
+}
+.thems{
+      display: flex;
+      gap: 10%;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+}
+.text5{
+      margin-left: 10%;
+}
+.btn2{
+      width: 90%;
+      border: none;
+      margin-top: 3%;
+      height: 60px;
+      border-radius: 20px;
+      margin-left: 5%;
+}
+p{
+      font-size: 11px;
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      padding-top: 5%;
+}
+.svg{
+      display: flex;
+}
